@@ -1,12 +1,15 @@
 from mockito import mock, verify
 import unittest
 
-from helloworld import helloworld
+import OBD
 
-class HelloWorldTest(unittest.TestCase):
-    def test_should_issue_hello_world_message(self):
+class OBDTest(unittest.TestCase):
+    def test_OBD(self):
         out = mock()
 
-        helloworld(out)
+        main(out)
 
-        verify(out).write("Hello world of Python\n")
+        verify(out).write("Input Succesfull")
+        verify(out).write("Converted to gray")
+        verify(out).write("Denoising image")
+        verify(out).write("Getting Boundaries")

@@ -1,0 +1,17 @@
+list all images
+	sudo docker image ls
+list all containers
+	sudo docker container ps -a
+
+delete a image
+	sudo docker image rm <id or name>
+delete a container
+	sudo docker container rm <id or name>
+
+
+create a container
+	sudo docker run --name <Container Name> -it ubuntu bash
+
+re-run a container
+	sudo docker start <Container name>
+	sudo docker attach <Container name>

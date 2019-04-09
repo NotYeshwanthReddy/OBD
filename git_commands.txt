@@ -1,0 +1,31 @@
+Reference and Documentation available in -
+	https://git-scm.com/docs
+
+
+Starting -
+	git init <repo_name>
+		- initilize a repo
+	git clone <repo_url>
+		- clone a repo from github
+
+Add or Remove files from the repo -
+	git add <file_name(s)>
+		- add a file to start tracking it
+	git rm <file_name(s)>
+		- remove a file from tracking
+
+Branching -
+	git branch <branch_name>
+		- Create a branch
+	git branch
+		- print all the available branches
+	git checkout <branch_name>
+		- Switch to the branch specified
+	git merge 
+
+Status and History -
+	git status
+		- Prints the status of the current repo
+	git log
+		- show the commit logs
+

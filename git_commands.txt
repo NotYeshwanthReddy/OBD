@@ -29,3 +29,4 @@ Status and History -
 	git log
 		- show the commit logs
 
+noted

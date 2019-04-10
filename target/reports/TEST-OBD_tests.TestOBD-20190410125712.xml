@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="2" failures="0" file="OBD_tests.py" name="OBD_tests.TestOBD-20190410125712" skipped="0" tests="2" time="0.002" timestamp="2019-04-10T12:57:12">
+	<testcase classname="OBD_tests.TestOBD" file="src/unittest/python/OBD_tests.py" line="45" name="test_GaussianDenoise" time="0.002" timestamp="2019-04-10T12:57:12">
+		<error message="OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+" type="error">
+<![CDATA[Traceback (most recent call last):
+  File "/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py", line 49, in test_GaussianDenoise
+    gray = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
+error: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+	<testcase classname="OBD_tests.TestOBD" file="src/unittest/python/OBD_tests.py" line="36" name="test_color2gray" time="0.001" timestamp="2019-04-10T12:57:12">
+		<error message="OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+" type="error">
+<![CDATA[Traceback (most recent call last):
+  File "/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py", line 40, in test_color2gray
+    output = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
+error: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+]]>		</error>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testcase>
+</testsuite>

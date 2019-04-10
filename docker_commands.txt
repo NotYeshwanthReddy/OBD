@@ -1,3 +1,5 @@
+
+
 list all images
 	sudo docker image ls
 list all containers
@@ -10,7 +12,7 @@ delete a container
 
 
 create a container
-	sudo docker run --name <Container Name> -it ubuntu bash
+	sudo docker run --name <Container Name> -it <Image name> bash
 
 re-run a container
 	sudo docker start <Container name>

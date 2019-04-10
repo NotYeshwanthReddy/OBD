@@ -22,7 +22,7 @@ warning: check: missing meta-data: either (author and author_email) or (maintain
 creating OBD-1.0.dev0
 creating OBD-1.0.dev0/OBD.egg-info
 copying files to OBD-1.0.dev0...
-copying helloworld.py -> OBD-1.0.dev0
+copying OBD.py -> OBD-1.0.dev0
 copying setup.py -> OBD-1.0.dev0
 copying OBD.egg-info/PKG-INFO -> OBD-1.0.dev0/OBD.egg-info
 copying OBD.egg-info/SOURCES.txt -> OBD-1.0.dev0/OBD.egg-info

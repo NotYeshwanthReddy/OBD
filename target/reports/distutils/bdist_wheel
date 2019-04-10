@@ -7,13 +7,13 @@ running build
 running build_py
 creating build
 creating build/lib.linux-x86_64-2.7
-copying helloworld.py -> build/lib.linux-x86_64-2.7
+copying OBD.py -> build/lib.linux-x86_64-2.7
 installing to build/bdist.linux-x86_64/wheel
 running install
 running install_lib
 creating build/bdist.linux-x86_64
 creating build/bdist.linux-x86_64/wheel
-copying build/lib.linux-x86_64-2.7/helloworld.py -> build/bdist.linux-x86_64/wheel
+copying build/lib.linux-x86_64-2.7/OBD.py -> build/bdist.linux-x86_64/wheel
 running install_egg_info
 running egg_info
 writing OBD.egg-info/PKG-INFO
@@ -26,7 +26,7 @@ Copying OBD.egg-info to build/bdist.linux-x86_64/wheel/OBD-1.0.dev0-py2.7.egg-in
 running install_scripts
 creating build/bdist.linux-x86_64/wheel/OBD-1.0.dev0.dist-info/WHEEL
 creating 'dist/OBD-1.0.dev0-py2-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
-adding 'helloworld.py'
+adding 'OBD.py'
 adding 'OBD-1.0.dev0.dist-info/METADATA'
 adding 'OBD-1.0.dev0.dist-info/WHEEL'
 adding 'OBD-1.0.dev0.dist-info/namespace_packages.txt'

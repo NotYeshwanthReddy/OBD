@@ -1,10 +1,28 @@
 
 Running tests...
 ----------------------------------------------------------------------
-.
+EE
+======================================================================
+ERROR [0.002s]: test_GaussianDenoise (OBD_tests.TestOBD)
 ----------------------------------------------------------------------
-Ran 1 test in 0.002s
+Traceback (most recent call last):
+  File "/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py", line 49, in test_GaussianDenoise
+    gray = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
+error: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
 
-OK
+
+======================================================================
+ERROR [0.001s]: test_color2gray (OBD_tests.TestOBD)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py", line 40, in test_color2gray
+    output = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
+error: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+FAILED (errors=2)
 
 Generating XML reports...

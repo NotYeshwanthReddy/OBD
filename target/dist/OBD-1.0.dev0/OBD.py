@@ -27,6 +27,12 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
+def color2gray(input_img):
+	return cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
+
+def GaussianDenoise(gray):
+	return cv2.GaussianBlur(gray,(3,3),0)
+
 def Boundary(input_img, input_image_name):
 	output_name = "../resources/images/output/" + input_image_name.split("/")[-1][:-4] + "_Original.jpg"
 	output_canny_name = "../resources/images/output/" + input_image_name.split("/")[-1][:-4] + "_Canny.jpg"
@@ -56,9 +62,10 @@ def Boundary(input_img, input_image_name):
 	cv2.imwrite(output_sobel_name, sobel)
 	cv2.imwrite(output_prewitt_name, prewitt)
 	cv2.imwrite(output_laplacian_name, laplacian)
+	return True
 
 
-def main(out):
+def main():
 	input_image_name = '../resources/images/input/test.png'
 	gaussian_denoise_name = "../resources/images/output/" + input_image_name.split("/")[-1][:-4] + "_Gaussian_Denoised.jpg"
 	median_denoised_name = "../resources/images/output/" + input_image_name.split("/")[-1][:-4] + "_Median_Denoised.jpg"
@@ -66,19 +73,17 @@ def main(out):
 
 	# # Original without Denoising 
 	input_img = cv2.imread(input_image_name)
-	out.write("Input Succesfull")
 	# Boundary(input_img, input_image_name)
 
 	# Gaussina Deoising 
-	gray = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
-	out.write("Converted to gray")
-	gaussian_denoise_img = cv2.GaussianBlur(gray,(3,3),0)
-	out.write("Denoising image")
-	Boundary(gaussian_denoise_img, gaussian_denoise_name)
-	out.write("Getting Boundaries")
+	gray = color2gray(input_img)
+	gaussian_denoise_img = GaussianDenoise(gray)
+	Success = Boundary(gaussian_denoise_img, gaussian_denoise_name)
+	if(Success):
+		print("Finished Succesfully")
 
 
 	# # Median Denoising
 	# median_denoised_img = cv2.medianBlur(input_img,5)
 	# Boundary(median_denoised_img, median_denoised_name)
-
+# main()

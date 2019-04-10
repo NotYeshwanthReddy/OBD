@@ -1,0 +1,4 @@
+sudo pip install pybuilder
+cd /home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/
+sudo pyb
+sudo docker build -t myimage:latest .

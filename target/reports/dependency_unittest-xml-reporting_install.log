@@ -1,5 +1,0 @@
-Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python3.6/dist-packages/unittest_xml_reporting-2.5.1.dist-info'
-Consider using the `--user` option or check the permissions.
-
-atisfied: six>=1.4.0 in /home/not-yeshwanth-reddy/.local/lib/python3.6/site-packages (from unittest-xml-reporting) (1.12.0)
-Installing collected packages: unittest-xml-reporting

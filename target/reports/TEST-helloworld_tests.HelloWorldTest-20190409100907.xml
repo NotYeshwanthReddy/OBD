@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" file="helloworld_tests.py" name="helloworld_tests.HelloWorldTest-20190409100907" skipped="0" tests="1" time="0.002" timestamp="2019-04-09T10:09:07">
-	<testcase classname="helloworld_tests.HelloWorldTest" file="src/unittest/python/helloworld_tests.py" line="7" name="test_should_issue_hello_world_message" time="0.002" timestamp="2019-04-09T10:09:07">
-		<system-out>
-<![CDATA[]]>		</system-out>
-		<system-err>
-<![CDATA[]]>		</system-err>
-	</testcase>
-</testsuite>

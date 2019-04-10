@@ -1,18 +1,18 @@
-
+download image from docker hub
+	docker pull ubuntu
 
 list all images
-	sudo docker image ls
+	sudo docker images
 list all containers
 	sudo docker container ps -a
+
+create a container
+	sudo docker run --name <Container Name> -it <Image name> bash
 
 delete a image
 	sudo docker image rm <id or name>
 delete a container
 	sudo docker container rm <id or name>
-
-
-create a container
-	sudo docker run --name <Container Name> -it <Image name> bash
 
 re-run a container
 	sudo docker start <Container name>

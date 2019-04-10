@@ -14,7 +14,8 @@
 #         verify(out).write("Denoising image")
 #         verify(out).write("Getting Boundaries")
 # Python code to demonstrate working of unittest 
-
+import sys
+sys.path.insert(0, '/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/main/python/')
 import unittest
 import cv2
 import OBD
@@ -31,15 +32,17 @@ class TestOBD(unittest.TestCase):
       
     def setUp(self): 
         pass
-  
+
     # Returns True if the string contains 4 a. 
     def test_color2gray(self):
     	global input_image_names
     	for input_image_name in input_image_names:
     		input_img = cv2.imread(input_image_name)
     		output = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
+    		out_height, out_width = output.shape[:2]
     		result = OBD.color2gray(input_img)
-    		self.assertEqual(result, output)
+    		res_height, res_width= result.shape[:2]
+    		self.assertEqual((res_height, res_width), (out_height, out_width))
 
     # Returns True if the string is in upper case. 
     def test_GaussianDenoise(self):
@@ -48,8 +51,10 @@ class TestOBD(unittest.TestCase):
     		input_img = cv2.imread(input_image_name)
     		gray = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)
     		output = cv2.GaussianBlur(gray,(3,3),0)
+    		out_height, out_width = output.shape[:2]
     		result = OBD.GaussianDenoise(gray)
-    		self.assertEqual(result, output)
+    		res_height, res_width= result.shape[:2]
+    		self.assertEqual((res_height, res_width), (out_height, out_width))
   
     # Returns TRUE if the string is in uppercase 
     # else returns False. 

@@ -2,11 +2,11 @@
   "errors": [
     {
       "test": "OBD_tests.TestOBD.test_GaussianDenoise", 
-      "traceback": "Traceback (most recent call last):\n  File \"/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py\", line 49, in test_GaussianDenoise\n    gray = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)\nerror: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'\n\n"
+      "traceback": "Traceback (most recent call last):\n  File \"/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py\", line 52, in test_GaussianDenoise\n    gray = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)\nerror: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'\n\n"
     }, 
     {
       "test": "OBD_tests.TestOBD.test_color2gray", 
-      "traceback": "Traceback (most recent call last):\n  File \"/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py\", line 40, in test_color2gray\n    output = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)\nerror: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'\n\n"
+      "traceback": "Traceback (most recent call last):\n  File \"/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/unittest/python/OBD_tests.py\", line 41, in test_color2gray\n    output = cv2.cvtColor(input_img, cv2.COLOR_BGR2GRAY)\nerror: OpenCV(4.0.1) /io/opencv/modules/imgproc/src/color.cpp:181: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'\n\n"
     }
   ], 
   "failures": [], 

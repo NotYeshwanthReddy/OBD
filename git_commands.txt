@@ -28,4 +28,3 @@ Status and History -
 		- Prints the status of the current repo
 	git log
 		- show the commit logs
-

@@ -1,24 +1,9 @@
-# from mockito import mock, verify
-# import unittest
-
-# import OBD
-
-# class OBDTest(unittest.TestCase):
-#     def test_OBD(self):
-#         out = mock()
-
-#         main(out)
-
-#         verify(out).write("Input Succesfull")
-#         verify(out).write("Converted to gray")
-#         verify(out).write("Denoising image")
-#         verify(out).write("Getting Boundaries")
 # Python code to demonstrate working of unittest 
 import sys
-sys.path.insert(0, '/home/not-yeshwanth-reddy/Documents/Sem6/Capstone/OBD/src/main/python/')
+sys.path.insert(0, '/../../main/python/')
+import OBD
 import unittest
 import cv2
-import OBD
 import numpy as np
 from matplotlib import pyplot as plt
 

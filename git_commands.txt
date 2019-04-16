@@ -28,3 +28,6 @@ Status and History -
 		- Prints the status of the current repo
 	git log
 		- show the commit logs
+Switch back to previous version -
+	git checkout <commit SSH id>
+		- reverts back to previous version

@@ -1,0 +1,16 @@
+Docker Usage-
+	Docker is a tool designed to make it easier to (create, deploy, and run applications) by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+
+What to do -
+	1.	Download Ubuntu Image
+	2.	Creater ubuntu container
+	3.	Install all needed dependencies
+	4.	Convert into Image (Ubuntu`)
+
+	(
+	5.	Create (project) Container from (Ubuntu`)
+	6.	Add out project build to docker
+	7.	Convert to Image (Project)
+	)	- Automated Using Jenkins
+	
+	8.	Upload to Docker hub (or share using a flash drive)

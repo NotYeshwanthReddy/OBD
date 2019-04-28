@@ -14,7 +14,7 @@ delete a image
 delete a container
 	sudo docker container rm <id or name>
 
-re-run a container
+Start an existing container
 	sudo docker start <Container name>
+Attach the started container to current terminal window
 	sudo docker attach <Container name>
-

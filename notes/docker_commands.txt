@@ -18,3 +18,12 @@ Start an existing container
 	sudo docker start <Container name>
 Attach the started container to current terminal window
 	sudo docker attach <Container name>
+
+Convert Container to Image
+	sudo docker commit <container_name>
+
+Save docker Image to .tar File
+	sudo docker save <image_name> > <filename.tar>
+
+Load .tar file to Docker Image
+	sudo docker load --input <filename.tar>

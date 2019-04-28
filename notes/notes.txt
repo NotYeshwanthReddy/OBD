@@ -1,16 +1,36 @@
-Docker Usage-
-	Docker is a tool designed to make it easier to (create, deploy, and run applications) by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
+Docker
 
-What to do -
-	1.	Download Ubuntu Image
-	2.	Creater ubuntu container
-	3.	Install all needed dependencies
-	4.	Convert into Image (Ubuntu`)
+	What is Docker-
+		Docker is a tool designed to make it easier to ""create, deploy, and run applications"" by using containers. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package.
 
-	(
-	5.	Create (project) Container from (Ubuntu`)
-	6.	Add out project build to docker
-	7.	Convert to Image (Project)
-	)	- Automated Using Jenkins
-	
-	8.	Upload to Docker hub (or share using a flash drive)
+	What to do -
+		1.	Download Ubuntu Image
+		2.	Creater ubuntu container
+		3.	Install all needed dependencies
+		4.	Convert the container into Image (Ubuntu`)
+
+		(
+		5.	Create (project) Container from (Ubuntu`)
+		6.	Add the project build file to docker
+		7.	Save to Image (Project)
+		)	- Automated Using Jenkins
+		
+		8.	Upload to Docker hub (or share using a flash drive)
+
+
+Jenkins
+
+	What is Jenkins-
+		Jenkins is an open source automation server written in Java. Jenkins helps to ""automate the non-human part of the software development"" process, with continuous integration and facilitating technical aspects of continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat.
+
+	What to do-
+		1.	Setup Source Code Management as "Git", Add git repo URL
+		2.	Set Build Trigger as "Poll SCM" and schedule for every minute (* * * * *).
+		3.	Build using shell (in ubuntu). Commands are available in jenkins.txt (explanation given below)
+			a.	move to the project location
+			b.	run the build file
+				i.	test the code
+				ii.	check for test cases coverage
+				iii.build the project
+				iv.	create .tar.gz file
+			c.	create docker image using the docker file

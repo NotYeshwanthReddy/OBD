@@ -1,0 +1,3 @@
+sudo docker build -t OBD:latest OBD/.
+
+sudo docker save OBD > OBD.tar

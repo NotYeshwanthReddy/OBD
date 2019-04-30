@@ -1,6 +1,5 @@
-FROM ubuntu_ready
+FROM pybuntu
 MAINTAINER Yeshwanth Reddy <peddamalluyeshwanth1999@gmail.com>
-
-# ADD target/dist/OBD-1.9.dev0/dist/OBD-1.0.dev0.tar.gz OBD-1.0.dev0.tar.gz
-
-CMD ["echo","Hello World from OBD Project"]
+COPY main.py /home/project/main.py
+WORKDIR /home/project/
+CMD ["python3.6","main.py"]

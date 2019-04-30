@@ -1,14 +1,14 @@
 running clean
-'build/lib.linux-x86_64-2.7' does not exist -- can't clean it
+'build/lib' does not exist -- can't clean it
 'build/bdist.linux-x86_64' does not exist -- can't clean it
-'build/scripts-2.7' does not exist -- can't clean it
+'build/scripts-3.6' does not exist -- can't clean it
 running sdist
 running egg_info
 creating OBD.egg-info
 writing OBD.egg-info/PKG-INFO
+writing dependency_links to OBD.egg-info/dependency_links.txt
 writing namespace_packages to OBD.egg-info/namespace_packages.txt
 writing top-level names to OBD.egg-info/top_level.txt
-writing dependency_links to OBD.egg-info/dependency_links.txt
 writing manifest file 'OBD.egg-info/SOURCES.txt'
 reading manifest file 'OBD.egg-info/SOURCES.txt'
 writing manifest file 'OBD.egg-info/SOURCES.txt'
@@ -23,7 +23,13 @@ creating OBD-1.0.dev0
 creating OBD-1.0.dev0/OBD.egg-info
 copying files to OBD-1.0.dev0...
 copying OBD.py -> OBD-1.0.dev0
+copying im_classes.py -> OBD-1.0.dev0
+copying obd.py -> OBD-1.0.dev0
+copying prepare_data.py -> OBD-1.0.dev0
+copying resnet_model.py -> OBD-1.0.dev0
+copying run_model.py -> OBD-1.0.dev0
 copying setup.py -> OBD-1.0.dev0
+copying sharpmask.py -> OBD-1.0.dev0
 copying OBD.egg-info/PKG-INFO -> OBD-1.0.dev0/OBD.egg-info
 copying OBD.egg-info/SOURCES.txt -> OBD-1.0.dev0/OBD.egg-info
 copying OBD.egg-info/dependency_links.txt -> OBD-1.0.dev0/OBD.egg-info

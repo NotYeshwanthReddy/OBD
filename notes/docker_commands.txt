@@ -21,6 +21,8 @@ Attach the started container to current terminal window
 
 Convert Container to Image
 	sudo docker commit <container_name>
+Tag the Image which was just created
+	sudo docker tag <image_id> <image_name>
 
 Save docker Image to .tar File
 	sudo docker save <image_name> > <filename.tar>

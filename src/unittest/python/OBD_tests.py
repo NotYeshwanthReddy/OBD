@@ -1,6 +1,6 @@
 # Python code to demonstrate working of unittest 
 import sys
-sys.path.insert(0, '/../../main/python/')
+sys.path.insert(0, '../../main/python/')
 import OBD
 import unittest
 import cv2

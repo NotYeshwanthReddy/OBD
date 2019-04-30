@@ -30,7 +30,15 @@ if __name__ == '__main__':
         scripts = [],
         packages = [],
         namespace_packages = [],
-        py_modules = ['OBD'],
+        py_modules = [
+            'resnet_model',
+            'obd',
+            'im_classes',
+            'sharpmask',
+            'prepare_data',
+            'OBD',
+            'run_model'
+        ],
         classifiers = [
             'Development Status :: 3 - Alpha',
             'Programming Language :: Python'

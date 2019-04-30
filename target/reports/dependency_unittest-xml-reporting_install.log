@@ -1,7 +1,7 @@
-  Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f81558cf5f8>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/unittest-xml-reporting/
-  Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f81558cf6a0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/unittest-xml-reporting/
-  Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f81558cfbe0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/unittest-xml-reporting/
-  Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f81558cf048>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/unittest-xml-reporting/
-  Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.VerifiedHTTPSConnection object at 0x7f81558cf0f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution',)': /simple/unittest-xml-reporting/
-  Could not find a version that satisfies the requirement unittest-xml-reporting (from versions: )
-No matching distribution found for unittest-xml-reporting
+You are using pip version 10.0.1, however version 19.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+5c95f1d512e/unittest_xml_reporting-2.5.1-py2.py3-none-any.whl
+Collecting six>=1.4.0 (from unittest-xml-reporting)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Installing collected packages: six, unittest-xml-reporting
+Successfully installed six-1.12.0 unittest-xml-reporting-2.5.1

@@ -1,0 +1,5 @@
+You are using pip version 10.0.1, however version 19.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+61/coverage-4.5.3-cp36-cp36m-manylinux1_x86_64.whl
+Installing collected packages: coverage
+Successfully installed coverage-4.5.3

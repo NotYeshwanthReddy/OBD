@@ -1,4 +1,3 @@
-This only works in linux.
 open terminal in this location.
 
 enter the below command.

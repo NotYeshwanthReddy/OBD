@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite errors="0" failures="0" file="OBD_tests.py" name="OBD_tests.HelloWorldTest-20190409112020" skipped="0" tests="1" time="0.001" timestamp="2019-04-09T11:20:20">
-	<testcase classname="OBD_tests.HelloWorldTest" file="src/unittest/python/OBD_tests.py" line="7" name="test_should_issue_hello_world_message" time="0.001" timestamp="2019-04-09T11:20:20">
-		<system-out>
-<![CDATA[]]>		</system-out>
-		<system-err>
-<![CDATA[]]>		</system-err>
-	</testcase>
-</testsuite>

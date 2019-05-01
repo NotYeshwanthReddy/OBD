@@ -1,7 +1,0 @@
-OBD
-im_classes
-obd
-prepare_data
-resnet_model
-run_model
-sharpmask

@@ -1,7 +1,0 @@
-You are using pip version 10.0.1, however version 19.1 is available.
-You should consider upgrading via the 'pip install --upgrade pip' command.
-5c95f1d512e/unittest_xml_reporting-2.5.1-py2.py3-none-any.whl
-Collecting six>=1.4.0 (from unittest-xml-reporting)
-  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
-Installing collected packages: six, unittest-xml-reporting
-Successfully installed six-1.12.0 unittest-xml-reporting-2.5.1

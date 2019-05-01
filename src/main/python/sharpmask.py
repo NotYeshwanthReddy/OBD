@@ -1,5 +1,4 @@
 import datetime
-
 import gc
 import tensorflow as tf
 import skimage.io as io

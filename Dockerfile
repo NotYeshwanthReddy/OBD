@@ -1,6 +1,6 @@
-FROM ubuntu_ready
-MAINTAINER Yeshwanth Reddy <peddamalluyeshwanth1999@gmail.com>
-COPY src /home/project/src
+FROM pyubuntu
+MAINTAINER Yeshwanth <peddamalluyeshwanth1999@gmail.com>
+COPY src /home/project/
 COPY build.py /home/project/build.py
 WORKDIR /home/project/
-CMD ["python3.6","src/main.python/obd.py"]
+CMD ["python3.6","src/main/python/obd.py"]

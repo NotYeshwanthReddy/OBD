@@ -1,3 +1,8 @@
-sudo docker build -t OBD:latest OBD/.
+Run project:
+	python src/main/python/obd.py
 
-sudo docker save OBD > OBD.tar
+Create Docker image:
+	sudo docker build -t obd:latest .
+
+Save Image to file:
+	sudo docker save obd > OBD.tar

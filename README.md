@@ -1,11 +1,15 @@
+# OBD (Object Boundary Detection)
+
+How to Run:
 open terminal in this location.
 
-enter the below command.
-pyb
+Enter the below command.
+ > pyb
 
-the project starts running all the test cases and builds the code converting into a .tar.gz and a .whl files.
+The project will run all the test cases and builds the code creating **.tar.gz** and **.whl** files.
 they are located in the target folder.
 <pre>
+
 Project Tree :
 
 OBD

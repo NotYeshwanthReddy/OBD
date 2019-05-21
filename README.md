@@ -1,7 +1,7 @@
 # OBD (Object Boundary Detection)
 
 How to Run:<br>
-open terminal in this location.
+open terminal in thle repo ocation.
 
 Enter the below command.<br>
  > pyb

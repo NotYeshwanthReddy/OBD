@@ -16,6 +16,7 @@ def OBD(inp):
         },
         headers={'api-key': '586e72bf-eac4-4a0b-9098-d5c320d0d50b'}
     )
+    # print(r.json())
     print("Saving output")
     output = r.json()["output_url"]
 
@@ -27,9 +28,12 @@ def OBD(inp):
 
 
 root = Tk()
-root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("JPG","*.jpg"),("JPEG","*.jpeg"),("PNG","*.png*"),("all files","*.*")))
-print (root.filename)
-OBD(str(root.filename))
-
 print("OBD - Object boundary detection")
 print("Using Sharpmask")
+
+try:
+    root.filename =  filedialog.askopenfilename(initialdir = ".",title = "Select file",filetypes = (("JPG","*.jpg"),("JPEG","*.jpeg"),("PNG","*.png*"),("all files","*.*")))
+    print (root.filename)
+    OBD(str(root.filename))    
+except:
+    print("An error occured, please try again.")

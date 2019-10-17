@@ -1,11 +1,15 @@
-open terminal in this location.
+# OBD (Object Boundary Detection)
 
-enter the below command.
-pyb
+How to Run:<br>
+open terminal in thle repo ocation.
 
-the project starts running all the test cases and builds the code converting into a .tar.gz and a .whl files.
+Enter the below command.<br>
+ > pyb
+
+The project will run all the test cases and builds the code creating **.tar.gz** and **.whl** files.
 they are located in the target folder.
 <pre>
+
 Project Tree :
 
 OBD
@@ -33,3 +37,7 @@ OBD
 |_target
 |_venv
 </pre>
+
+
+Reference for Markdown file format:
+https://www.markdownguide.org/basic-syntax/#overview

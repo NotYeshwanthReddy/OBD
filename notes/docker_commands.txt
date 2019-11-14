@@ -16,6 +16,8 @@ delete a container
 
 Start an existing container
 	sudo docker start <Container name>
+Stop an existing container
+	sudo docker stop <Container name>
 Attach the started container to current terminal window
 	sudo docker attach <Container name>
 

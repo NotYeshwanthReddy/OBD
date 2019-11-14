@@ -28,6 +28,9 @@ Tag the Image which was just created
 
 Save docker Image to .tar File
 	sudo docker save <image_name> > <filename.tar>
-
 Load .tar file to Docker Image
 	sudo docker load --input <filename.tar>
+
+Upload image to dockerhub.
+	sudo docker login --username=<username> --email=****@****.com
+	sudo docker tag <imageID> <username>/<imagename>:<tag>

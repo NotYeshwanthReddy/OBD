@@ -1,3 +1,6 @@
+build a dockerfile
+        docker build <dockerfile-path>
+
 download image from docker hub
 	docker pull ubuntu
 
